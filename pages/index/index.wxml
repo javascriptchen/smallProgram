@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" scale="16" bindregionchange="regionchange" controls="{{controls}}" show-location>
+    <cover-view class='location' bindtap="moveToLocation">2134</cover-view>
+  </map>
+</view>
